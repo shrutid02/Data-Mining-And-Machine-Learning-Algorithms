@@ -1,3 +1,4 @@
+# Support Vector Machine
 Problem Statements:
 
 1. Report the number of Class 1 and Class 0 samples in dataset
