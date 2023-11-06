@@ -6,3 +6,6 @@ Problem Statements:
 For each value of C, train an SVM classifier with the training data and get the number of support vectors. 
 Generate and analyze a plot with C as the horizontal axis and the number of SVs as the vertical axis.
 4. Compare the performance of four different kernel functions: linear, polynomial, radial basic function (Gaussian kernel), and Sigmoid. For each type, train and evaluate an SVM classifer and record accuracy, precision, recall and f-measure scores.
+
+**Plot for C (regularization parameter) and number of support vectors:**
+![Image 06-11-23 at 12 27 PM](https://github.com/shrutid02/Data-Mining-And-Machine-Learning-Algorithms/assets/42238433/110c5f93-ac3d-49a9-b733-6df021f69345)
