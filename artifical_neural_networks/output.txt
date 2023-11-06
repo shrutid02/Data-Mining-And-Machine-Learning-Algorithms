@@ -125,7 +125,4 @@ Epoch 10/10
 383/383 [==============================] - 1s 2ms/step - loss: 0.0418 - accuracy: 0.9869 - val_loss: 0.2001 - val_accuracy: 0.9477
 90/90 [==============================] - 0s 1ms/step - loss: 0.1830 - accuracy: 0.9499
 
-Plot between number of hidden neurons and accuracy:
-
-
 Results after evaluating the neural network for n=32:  [0.1830115020275116, 0.9499443769454956]
