@@ -1,0 +1,52 @@
+Initial data: Class
+0    83
+1    73
+Name: count, dtype: int64
+Training data (75%): Class
+0    62
+1    55
+Name: count, dtype: int64
+Testing data (25%): Class
+0    21
+1    18
+Name: count, dtype: int64
+[106, 92, 85, 76, 68, 62, 58, 57, 53]
+Best params for linear kernel:  {'C': 1}
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.73      0.72        52
+         1.0       0.70      0.67      0.68        48
+
+    accuracy                           0.70       100
+   macro avg       0.70      0.70      0.70       100
+weighted avg       0.70      0.70      0.70       100
+
+Best params for polynomial kernel:  {'C': 0.1, 'coef0': 2, 'degree': 2}
+              precision    recall  f1-score   support
+
+         0.0       0.72      0.75      0.74        52
+         1.0       0.72      0.69      0.70        48
+
+    accuracy                           0.72       100
+   macro avg       0.72      0.72      0.72       100
+weighted avg       0.72      0.72      0.72       100
+
+Best params for rbf kernel:  {'C': 0.2, 'gamma': 0.1}
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.71      0.72        52
+         1.0       0.69      0.71      0.70        48
+
+    accuracy                           0.71       100
+   macro avg       0.71      0.71      0.71       100
+weighted avg       0.71      0.71      0.71       100
+
+Best params for polynomial kernel:  {'C': 5, 'coef0': 0.3, 'gamma': 0.03}
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.71      0.72        52
+         1.0       0.69      0.71      0.70        48
+
+    accuracy                           0.71       100
+   macro avg       0.71      0.71      0.71       100
+weighted avg       0.71      0.71      0.71       100
